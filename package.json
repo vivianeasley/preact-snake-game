@@ -1,0 +1,23 @@
+{
+  "name": "preact-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve index.html --out-dir dist --port 3000 --open",
+    "build": "parcel build index.html --detailed-report --experimental-scope-hoisting --out-dir dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "htm": "^3.0.4",
+    "immer": "^8.0.0",
+    "preact": "^10.5.7"
+  },
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
